@@ -1,20 +1,124 @@
-h1{
-	color: rgb(111, 0, 255);
-}
-#conteneur
+
+/*###################################################################################*/
+
+*
 {
-	display: flex;
+	margin				:	0 0 0 0;
+	padding				:	0 0 0 0;
 }
 
-#h1
-{
-color: blue; 
+/*###################################################################################*/
+
+#id_container {
+
+	width 				: 	90%;
+	margin-left 		: 	auto;
+	margin-right 		: 	auto;
+
+	background-color	:	red;
 }
-.test
+
+/*###################################################################################
+
+	Header
+
+###################################################################################*/
+
+header
 {
-color: blue; 
+	display				: 	flex;
+	justify-content		:	space-between;
 }
-#Hebergement
+
+header nav
 {
-	padding-left: 20px;
+	margin-top			:	10px;
 }
+
+header a
+{
+	color				:	#DEEBFF;
+	color				:	#0065FC;
+	text-decoration     : 	none;
+	min-width			:	100px;
+	padding-left		:	15px;
+	padding-right		:	15px;
+	padding-top 		:	5px;
+	padding-bottom		:	5px;
+}
+
+header a:hover
+{
+	color				:	black;
+}
+
+/*###################################################################################
+
+	Recherche
+
+###################################################################################*/
+
+#id_recherche
+{
+	background-color: rgb(226, 195, 195);
+	color: black;
+}
+
+/*###################################################################################
+
+	Footer
+
+###################################################################################*/
+
+footer
+{
+	background-color	: #F2F2F2;
+	padding-top 			: 20px;
+	padding-bottom			: 20px;
+}
+
+footer table
+{
+	width				:	90%;
+	margin-left 		: 	auto;
+	margin-right 		: 	auto;
+}
+
+footer table td
+{
+	width				:	33%;
+	vertical-align		: 	top;	
+}
+
+footer p
+{
+	font-weight			: 	bold;
+}
+
+footer ul
+{
+	list-style-type		: 	none;
+}
+
+footer li
+{
+	margin-top 			:	10px;
+}
+
+footer a
+{
+	color				:	black;
+	text-decoration     : 	none;
+
+	min-width			:	200px;
+	padding-right		:	20px;
+	padding-top 		:	10px;
+	padding-bottom		:	10px;
+}
+
+footer a:hover
+{
+	color				:	blue;
+}
+
+/*###################################################################################*/
