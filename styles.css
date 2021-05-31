@@ -99,41 +99,48 @@ header a:hover
 	display					: 	flex;
 	background-color		:	blue;
 
-	-flex-direction			: 	column;
-	-flex-direction			: 	row;
+	flex-direction			: 	column;
 	flex-wrap   			: 	wrap;
 
 	justify-content			: 	space-between;
+	align-content			:	space-between;
 	align-items				: 	flex-start;
+
+	height					: 	300px;
+	overflow				:	hidden;
 }
 
-.bloc_activites
+#id_activites_flex div
 {
 	background-color		:	lightpink;
 
 	border					: 	5px solid #F2F2F2;
-	border					: 	5px solid grey;
+	-border					: 	5px solid grey;
 	border-radius			: 	25px;
 
 	overflow				:	hidden;
 
-	width					:	240px;
+	width					:	230px;
 }
 
-.img_a100	{	height					:	200px;	}
-.img_a60	{	height					:	120px;	}
-.img_a40	{	height					:	80px;	}
-
-.bloc_activites img
+#id_activites_flex div img
 {
-	width					: 	100%;
-	height					: 	100%;
+	-width					: 	100%;
+	-height					: 	100%;
 }
 
-.bloc_activites p
+.img_a100	{	height		:	255px;	width	:	100%;	}
+.img_a60	{	height		:	120px;	width	:	100%;	}
+.img_a40	{	height		:	80px;	width	:	100%;	}
+
+#id_activites_flex div p
 {
-	padding          		:	10px;
+	display					:	table-cell;
+	vertical-align			: 	middle;
+
 	font-weight				: 	bold;
+	height					: 	30px;
+	padding-left       		:	15px;
 }
 
 /*###################################################################################
