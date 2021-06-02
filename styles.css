@@ -70,6 +70,52 @@ header a:hover
 
 ###################################################################################*/
 
+
+#hebergement_flex
+{
+	display: flex;
+	flex-flow: column;
+	background-color	:#F2F2F2;
+	
+}
+
+#hebergement_flex img
+{
+	width: 					20%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap
+	
+}
+
+#populaires-flex img
+{
+	width: 					20%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap	
+}
+
+
+
+
+#id_hebergement
+{
+	display: flex;
+	background-color	:	white;
+}
+
+-
+}
+
+-#id_hebergement element div img
+{
+	width: 					20%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
 #id_hebergement img 
 {
 	width					:	20%;
@@ -97,7 +143,7 @@ header a:hover
 #id_activites_flex
 {
 	display					: 	flex;
-	background-color		:	blue;
+	background-color		:	white;
 
 	flex-direction			: 	column;
 	flex-wrap   			: 	wrap;
@@ -112,7 +158,7 @@ header a:hover
 
 #id_activites_flex div
 {
-	background-color		:	lightpink;
+	background-color		:	white;
 
 	border					: 	5px solid #F2F2F2;
 	-border					: 	5px solid grey;
