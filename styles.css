@@ -15,7 +15,7 @@
 	margin-left 		: 	auto;
 	margin-right 		: 	auto;
 
-	background-color	:	red;
+	background-color	:	white
 }
 
 /*###################################################################################
@@ -23,23 +23,34 @@
 	Header
 
 ###################################################################################*/
+@font-face {
+	font-family: "Trouvez votre hébergement pour des vacances de rêve";
+	src: url("/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff");
+  }
+  
+  body {
+	font-family: "Trouvez votre hébergement pour des vacances de rêve", serif;
+  } 
 
 header
 {
 	display				: 	flex;
 	justify-content		:	space-between;
+	
 }
 
 header nav
 {
 	margin-top			:	10px;
+	border-top			: blue;
 }
 
 header a
 {
 	color				:	#DEEBFF;
 	color				:	#0065FC;
-	text-decoration     : 	none;
+	border-top			: 	#0065FC;
+	text-decoration		: 	none;
 	min-width			:	100px;
 	padding-left		:	15px;
 	padding-right		:	15px;
@@ -47,9 +58,12 @@ header a
 	padding-bottom		:	5px;
 }
 
+
 header a:hover
 {
 	color				:	black;
+	border-top-style: inset;
+	
 }
 
 /*###################################################################################
@@ -60,9 +74,27 @@ header a:hover
 
 #id_recherche
 {
-	background-color: rgb(226, 195, 195);
+	background-color: white;
 	color: black;
 }
+
+#id_recherche button
+{
+	background-color: blue;
+	color: white;
+	font-size: small;
+	padding: 6px 20px;
+	border-radius: 8px;
+	border-style: 
+}
+
+#site-search
+{
+	font-size: large;
+	
+}
+
+
 
 /*###################################################################################
 
@@ -70,57 +102,70 @@ header a:hover
 
 ###################################################################################*/
 
+#bloc
+{
+	display: flex;
+	-justify-content			: 	space-between;
+	
+}
+
 
 #hebergement_flex
 {
-	display: flex;
-	flex-flow: column;
-	background-color	:#F2F2F2;
+	display					: flex;
+	flex-direction			: column;
+	background-color		:#F2F2F2;
+	margin-right			: 20px;
 	
 }
 
 #hebergement_flex img
 {
-	width: 					20%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap
+	width					: 200px;
+	-display				: flex;
+	-flex-direction			: column;
+	-flex-wrap				: wrap
 	
 }
 
-#populaires-flex img
+
+#hebergement_flex div1à3
 {
-	width: 					20%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap	
+	display					: flex;
+}
+
+#hebergement_flex div4à6
+{
+	display					: flex;
 }
 
 
+#populaires_flex
+{
+	display					: 	flex;
+	flex-direction			: 	column;
+	flex-wrap   			: 	wrap;
+
+	align-items				: 	flex-start;
+	background-color		:	#F2F2F2;
+	-overflow				:	hidden;	
+}
+
+#populaires_flex img
+{
+	width: 						35%;
+	display: 					flex;
+	flex-direction: 			column;
+	flex-wrap: 					wrap	
+}
 
 
 #id_hebergement
 {
 	display: flex;
-	background-color	:	white;
+	background-color	:		white;
 }
 
--
-}
-
--#id_hebergement element div img
-{
-	width: 					20%;
-	display: flex;
-	flex-direction: column;
-	
-}
-
-#id_hebergement img 
-{
-	width					:	20%;
-
-}
 
 /*###################################################################################
 
@@ -130,13 +175,11 @@ header a:hover
 
 #id_activites
 {
-	background-color	:	lightskyblue;
+	background-color	:	white;
+	padding-bottom		: 	20px;
+	padding-top			: 20px;
 }
 
-#id_activites h1
-{
-
-}
 
 /*#################################################################################*/
 
@@ -144,40 +187,50 @@ header a:hover
 {
 	display					: 	flex;
 	background-color		:	white;
-
-	flex-direction			: 	column;
-	flex-wrap   			: 	wrap;
-
 	justify-content			: 	space-between;
-	align-content			:	space-between;
-	align-items				: 	flex-start;
+	padding-top				: 	15px;
 
-	height					: 	300px;
-	overflow				:	hidden;
 }
 
-#id_activites_flex div
+#id_activites_flex div1 img
 {
 	background-color		:	white;
-
 	border					: 	5px solid #F2F2F2;
-	-border					: 	5px solid grey;
-	border-radius			: 	25px;
+	border-radius			: 	20px;
+	height					: 	225px;
+	width					: 	200px
+	
+}	
 
-	overflow				:	hidden;
-
-	width					:	230px;
-}
-
-#id_activites_flex div img
+#id_activites_flex div2et3 img
 {
-	-width					: 	100%;
-	-height					: 	100%;
+	background-color		:	white;
+	border					: 	5px solid #F2F2F2;
+	border-radius			: 	20px;
+	height					: 	100px;
+	width					: 	190px;	
 }
 
+#id_activites_flex div4 img
+{
+	background-color		:	white;
+	border					: 	5px solid #F2F2F2;
+	border-radius			: 	20px;
+	height					: 	225px;
+	width					: 	200px	
+}	
+
+#id_activites_flex div5et6 img
+{
+	background-color		:	white;
+	border					: 	5px solid #F2F2F2;
+	border-radius			: 	20px;
+	height					: 	100px;
+	width					: 	190px;	
+}
+	
 .img_a100	{	height		:	255px;	width	:	100%;	}
-.img_a60	{	height		:	120px;	width	:	100%;	}
-.img_a40	{	height		:	80px;	width	:	100%;	}
+
 
 #id_activites_flex div p
 {
@@ -200,6 +253,7 @@ footer
 	background-color		: #F2F2F2;
 	padding-top 			: 20px;
 	padding-bottom			: 20px;
+
 }
 
 footer table
@@ -207,6 +261,7 @@ footer table
 	width				:	90%;
 	margin-left 		: 	auto;
 	margin-right 		: 	auto;
+	
 }
 
 footer table td
@@ -223,16 +278,18 @@ footer p
 footer ul
 {
 	list-style-type		: 	none;
+	
 }
 
 footer li
 {
 	margin-top 			:	10px;
+	
 }
 
 footer a
 {
-	color				:	black;
+	color				:	gray;
 	text-decoration     : 	none;
 
 	min-width			:	200px;
