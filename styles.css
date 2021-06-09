@@ -116,7 +116,8 @@ header a:hover
 	flex-direction			: column;
 	background-color		:#F2F2F2;
 	margin-right			: 20px;
-	
+	border-radius			: 20px;
+	padding-top				: 10px;
 }
 
 #hebergement_flex img
@@ -129,14 +130,90 @@ header a:hover
 }
 
 
+.legende 
+{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(200, 200, 200, 0.85);
+	opacity: 0;
+	-webkit-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}
+
+.boite:hover .legende {
+	opacity:1;
+	}
+.card img
+{
+	-overflow : hidden; /* empêche le dépassement de texte */
+	-max-height:100%    /* limite la taille de la zone de texte */
+}
+
+.i bleu fas fa-star
+{
+	color: blue;
+}
+
+.i grey fas fa-star
+{
+	color: gray;
+}
+
+
+
+div1
+{
+	
+}
+
+
 #hebergement_flex div1à3
 {
 	display					: flex;
+	padding-bottom			: 15px;
+
 }
 
 #hebergement_flex div4à6
 {
 	display					: flex;
+	
+}
+
+div1à3 img
+{
+	background-color		:	white;
+	border					: 	5px solid #F2F2F2;
+	border-color			:	white ;
+	border-radius			: 	20px;
+	height					: 	100px;
+	width					: 	25px
+	
+}
+
+div4à6 img
+{
+	background-color		:	white;
+	border					: 	5px solid #F2F2F2;
+	border-color			:	white ;
+	border-radius			: 	20px;
+	height					: 	100px;
+	width					: 	25px
+}
+
+div7
+{
+	display: flex;
+}
+
+div8
+{
+	display: flex;
+}
+
+div9
+{
+	display: flex;
 }
 
 
@@ -145,10 +222,11 @@ header a:hover
 	display					: 	flex;
 	flex-direction			: 	column;
 	flex-wrap   			: 	wrap;
-
+	border-radius			: 	20px;
 	align-items				: 	flex-start;
 	background-color		:	#F2F2F2;
-	-overflow				:	hidden;	
+	padding-top				: 	10px;
+	padding-bottom			: 	10px;
 }
 
 #populaires_flex img
