@@ -5,6 +5,7 @@
     <title>Reservia - le site web</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -31,10 +32,11 @@
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <h3>En plein centre ville ou en pleine nature</h3>
 
-                <label for="site-search"></label> <i class="fas fa-map-marker-alt"></i>
-                <input type="search" id="site-search" name="q" aria-label="Search through site content" />
-                <button>Rechercher</button>
-
+                <div class="recherche_flex">
+                    <label for="site-search"></label> <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" id="site-search" name="q" aria-label="Search through site content" />
+                    <button>Rechercher</button>
+                </div>
                 <br />
                 <span>Filtres</span>
             <div>
@@ -297,7 +299,7 @@
                     </div>
 
                     <div class="activites_double">
-                        <div>
+                        <div class="activites_double_notredame-lagarder">
                             <div class="activites_double_lagarde">
                                 <img  src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"       alt="Notre-Dame-de-la-Garde" />
                                 <p>Notre-Dame-de-la-Garde</p>
