@@ -102,6 +102,7 @@ header a:hover
 .recherche_flex > site-search
 {
 	display: flex;
+	
 }
 
 #id_recherche button
@@ -110,14 +111,17 @@ header a:hover
 	color						: white;
 	font-size					: small;
 	padding						: 6px 20px;
+	margin						: 0px;
 	border-top-right-radius		: 8px;
 	border-bottom-right-radius	: 8px;	
 }
 
 #site-search
 {
-	font-size	: large;
-	margin		: none; 	
+	font-size			: 20px;
+	height				: 30px;
+	margin				: 0px; 
+	padding				: 0px;
 }
 
 /*################################################################################
@@ -150,6 +154,10 @@ header a:hover
 	color: black;
 }
 
+#id_filtres  div  i
+{
+	
+}
 .logements
 {
 	display						: flex;
@@ -167,6 +175,7 @@ header a:hover
 {
 	margin-left					: 5px;
 	color						:gray;
+	font-weight					: bold;
 }
 
 /*###################################################################################
@@ -299,9 +308,8 @@ header a:hover
 
 #bloc_hebergement > p
 {
-	-margin-top: 30px;
-	-margin-bottom: 30px;
-	-margin-left: 30px;
+	font-weight:bold;
+	font-family: Raleway;
 }
 
 
@@ -321,14 +329,17 @@ header a:hover
 	padding-right			:	30px;
 
 	padding-top				:	40px;
-	padding-bottom			:	40px;
+	padding-bottom			:	20px;
 }
 
 .populaires_graphe
 {
 	display					: flex;
-	justify-content			:	space-between;	
+	justify-content			: space-between;
+	margin-bottom			: 30px;
+	margin-bottom			: 30px;
 }
+
 
 #bloc_populaires > h3
 {
@@ -338,20 +349,12 @@ header a:hover
 .populaires_flex
 {
 
-	height: 100%;
+	height: 85%;
 
 	display					: 	flex;
 	flex-direction			: 	column;
 	justify-content			:	space-between;
-
-}
-
--#bloc_populaires > div
-{
-    display					: 	flex;
-	flex-direction			: 	column;
-	justify-content			:	flex-start
-
+	
 }
 
 #bloc_populaires > div > a
@@ -364,8 +367,7 @@ header a:hover
 .populaires_box
 {
 	width				: 	280px;
-	height				:	140px;
-
+	height				:	120px;
 	border-width		:	5px;
 	border-color		:	white;
 	border-radius		: 	20px;
