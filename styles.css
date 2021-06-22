@@ -47,14 +47,14 @@ header
 header nav
 {
 	margin-top			:	55px;
-	border-top-color	: blue;
+	border-top-color	: #DEEBFF;
 }
 
 header a
 {
 	color				:	#DEEBFF;
 	color				:	#0065FC;
-	border-top			: 	#0065FC;
+	border-top			:	#0065FC ;
 	text-decoration		: 	none;
 	min-width			:	100px;
 	padding-left		:	15px;
@@ -152,18 +152,20 @@ header a:hover
 
 }
 
-.recherche_flex button
+.recherche_flex > button
 {
-	background-color			: blue;
+	background-color			:#0065FC;
 	color						: white;
 	font-size					: small;
 	padding-left				: 10px;
 	padding-right				: 10px;
-
+	font-family					: Bold;
+	font-weight					: Raleway;
+	
 
 	border-top-right-radius		: 8px;
 	border-bottom-right-radius	: 8px;
-	border-color				:blue;
+	border-color				:#0065FC;
 	border-style				: solid;
 }
 
@@ -192,7 +194,7 @@ header a:hover
 
 
 	margin-top					: 20px;
-	color						: blue ;
+	color						: #0065FC ;
 }
 
 #id_filtres  div
@@ -204,8 +206,7 @@ header a:hover
 	border-style	: 	solid;
 	border-width	: 	4px;
 	border-radius	: 	200px;
-
-	margin-right: 20px;
+	margin-right	: 	20px;	
 }
 
 #id_filtres span
@@ -237,22 +238,43 @@ header a:hover
 	text-decoration				: none;
 }
 
+#id_filtres  a:hover
+{
+	-background-color: lightgreen;
+	padding: 14px 25px;
+	-border: 2px solid green;
+	border-top-style:unset
+	
+  
+}
+
 .logements
 {
-	display						: flex;
+	display						: 	flex;
+	justify-content				:	left; 
+	align-content				: 	center;
+	align-items					: 	center;
+	
 	color						: black;
 	margin-top					: 20px;
 	margin-bottom				: 20px;	
+	
 }
 
 .logements > i
 {
-	color						:blue	
+	color						:#0065FC;
+	border-style				: solid;
+	border-color				:#F2F2F2 ;
+	border-width				: 15px;
+	border-radius				: 80px;
+	font-size					:xx-small;
+	
 }
 
 .logements > p
 {
-	margin-left					: 5px;
+	margin-left					: 10px;
 	color						:gray;
 	font-weight					: bold;
 }
@@ -272,12 +294,12 @@ header a:hover
 
 .bleu
 {
-	color						: blue;
+	color						:#0065FC;
 }
 
 .grey
 {
-	color						: gray;
+	color						: #F2F2F2;
 }
 
 /*###################################################################################*/
@@ -293,8 +315,8 @@ header a:hover
 	justify-content			: 	space-between;
 
 	background-color		:#F2F2F2;
-	margin-right			: 20px;
-	border-radius			: 20px;
+	margin-right			: 	20px;
+	border-radius			: 	20px;
 
 	padding-left			:	30px;
 	padding-right			:	30px;
@@ -326,69 +348,69 @@ header a:hover
 .hebergement_box
 {
 
-	width				: 	170px;
-	height				:	200px;
+	width					: 	170px;
+	height					:	200px;
 
-	border-width		:	5px;
-	border-color		:	white;
-	border-radius		: 	20px;
-	border-style		:	solid ;
+	border-width			:	5px;
+	border-color			:	white;
+	border-radius			: 	20px;
+	border-style			:	solid ;
 
-	background-color	: white;
+	background-color		: white;
 
-	overflow			: 	hidden;
+	overflow				: 	hidden;
 
 
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display					: flex;
+    flex-direction			: column;
+    justify-content			: flex-start;
 
 }
 
 .hebergement_image
 {
-	display				: 	flex;
-	-width				: 	100%;
-	-height				:	60%;
+	display					: 	flex;
+	-width					: 	100%;
+	-height					:	60%;
 }
 
 .hebergement_image > img
 {
-	height				:	110px;
-	width				: 	100%;
-	object-fit			: 	cover;
+	height					:	110px;
+	width					: 	100%;
+	object-fit				: 	cover;
 }
 
 .hebergement_legende
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	height: 100%;
+	display					: flex;
+	flex-direction			: column;
+	justify-content			: space-evenly;
+	height					: 100%;
 }
 
 .hebergement_legende > p:nth-child(1) 
 {
-	color: black;
-	font-weight:bold;	
-	font-family: Raleway; 
+	color					: black;
+	font-weight				:bold;	
+	font-family				: Raleway; 
 }
 
 .hebergement_legende > p:nth-child(2) 
 {
-	color: grey;
+	color					: grey;
 }
 
 .hebergement_legende > p > span
 {
-	color: black;
-	font-weight:bold;	
+	color					: black;
+	font-weight				:bold;	
 }
 
 #bloc_hebergement > p
 {
-	font-weight:bold;
-	font-family: Raleway;
+	font-weight				:bold;
+	font-family				: Raleway;
 }
 
 
@@ -636,7 +658,7 @@ header a:hover
 	margin-top				: 	50px;
 }
 
-#id_activites_flex div p
+#id_activites_flex div > p
 {
 	display					:	table-cell;
 	vertical-align			: 	middle;
@@ -644,11 +666,14 @@ header a:hover
 	font-size				: 	14px;
 	height					: 	25px;
 	padding-left       		:	15px;
+	
 }
 
-#activites_flex > p
+.activites_flex  p
 {
-	
+	color: black;
+	font-family: Raleway;
+	text-decoration: none;
 }
 
 
@@ -661,9 +686,11 @@ header a:hover
 
 #id_footer
 {
-	-width: 1000px;
-	
-	-padding: auto;
+	display					: flex;
+	width					: 1050px;
+	padding-left			: 50px;
+	margin-left 			: auto;
+	margin-right 			: auto;
 } 
 
 footer
@@ -671,56 +698,43 @@ footer
 	background-color		: #F2F2F2;
 	padding-top 			: 20px;
 	padding-bottom			: 20px;
-	-margin-left: 250px;
-	-margin-right: 250px;
 	
 }
 
-footer table
+.Hébergements
 {
-	width				:	65%;
-	margin-left 		: 	auto;
-	margin-right 		: 	auto;
-	
-}
-
-footer table td
-{
-	width				:	33%;
-	vertical-align		: 	top;	
+	padding-left			: 150px;
+	padding-right			: 150px;
 }
 
 footer p
 {
-	font-weight			: 	bold;
+	font-weight				: bold;
 }
 
 footer ul
 {
-	list-style-type		: 	none;
-	
+	list-style-type			: none;
 }
 
 footer li
 {
-	margin-top 			:	10px;
-	
+	margin-top 				: 10px;	
 }
 
 footer a
 {
-	color				:	gray;
-	text-decoration     : 	none;
-
-	min-width			:	200px;
-	padding-right		:	20px;
-	padding-top 		:	10px;
-	padding-bottom		:	10px;
+	color					: gray;
+	text-decoration     	: none;
+	min-width				: 200px;
+	padding-right			: 20px;
+	padding-top 			: 10px;
+	padding-bottom			: 10px;
 }
 
 footer a:hover
 {
-	color				:	blue;
+	color				:	#0065FC;
 }
 
 /*###################################################################################*/
