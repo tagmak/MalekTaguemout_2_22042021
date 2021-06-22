@@ -159,9 +159,8 @@ header a:hover
 	font-size					: small;
 	padding-left				: 10px;
 	padding-right				: 10px;
-	font-family					: Bold;
-	font-weight					: Raleway;
-	
+	font-family					: Raleway;
+	font-weight					: Bold;
 
 	border-top-right-radius		: 8px;
 	border-bottom-right-radius	: 8px;
@@ -263,12 +262,20 @@ header a:hover
 
 .logements > i
 {
+
+	display						: 	flex;
+	justify-content				:	center; 
+	align-content				: 	center;
+	align-items					: 	center;
+
+	width						:	20px;
+	height						:	20px;
+
 	color						:#0065FC;
-	border-style				: solid;
 	border-color				:#F2F2F2 ;
-	border-width				: 15px;
-	border-radius				: 80px;
-	font-size					:xx-small;
+	border-style				: solid;
+	border-width				: 2px;
+	border-radius				: 15px;
 	
 }
 
@@ -658,7 +665,14 @@ header a:hover
 	margin-top				: 	50px;
 }
 
-#id_activites_flex div > p
+#id_activites_flex a
+{
+	color					: black;
+	font-family				: 	Raleway;
+	text-decoration			: 	none;
+}
+
+#id_activites_flex p
 {
 	display					:	table-cell;
 	vertical-align			: 	middle;
@@ -666,16 +680,7 @@ header a:hover
 	font-size				: 	14px;
 	height					: 	25px;
 	padding-left       		:	15px;
-	
 }
-
-.activites_flex  p
-{
-	color: black;
-	font-family: Raleway;
-	text-decoration: none;
-}
-
 
 /*###################################################################################
 
@@ -737,4 +742,85 @@ footer a:hover
 	color				:	#0065FC;
 }
 
-/*###################################################################################*/
+/*###################################################################################*
+
+	Media queries
+
+#####################################################################################*/
+
+
+@media all and (max-width: 1024px)
+/*@media not screen, screen and (max-width: 1024px)*/
+{
+	#bloc_page
+    {
+        width: auto;
+	} 
+
+	#id_container header
+	{
+		flex-direction: column;	
+	}
+
+	#id_container header img
+	{
+		display: none;
+	}
+
+	#id_container header ui
+	{
+		display: block;
+	}
+
+	#id_container header div
+	{
+		flex-direction: column;	
+		text-decoration: none;
+	}
+
+	-section
+    {
+        flex-direction: column;
+    }
+
+		
+	#id_filtres
+	{
+		flex-direction: column;
+		-margin-left: none;
+		justify-content: left;
+		align-content: left;
+		align-items: left;
+
+		background-color: royalblue;
+	}
+
+	.hebergement_triple
+	{
+		flex-direction: column;	
+		
+	}
+
+	.hebergement_triple img
+	{
+		margin-bottom: 10px;
+	}
+
+	#id_footer 
+	{
+	
+		flex-direction: column;
+		
+	
+	}
+
+	.Hébergements div	{
+		margin-left: 5px;
+		margin-top: 5px ;
+		margin-bottom: 5px;
+	}
+
+
+}
+
+
