@@ -9,7 +9,8 @@
 
 /*###################################################################################*/
 
-#id_container {
+#id_container
+{
 
 	width 				: 	1000px;
 	margin-left 		: 	auto;
@@ -67,8 +68,8 @@ header a
 header a:hover
 {
 	color				:	black;
-	border-top-style: inset;
-	
+	border-top-style	: 	inset;
+	border-top-style	:	solid
 }
 
 /*###################################################################################
@@ -548,7 +549,6 @@ header a:hover
 	background-color	:	white;
 	padding-bottom		: 	20px;
 	padding-top			: 	20px;
-
 }
 
 /*#################################################################################*/
@@ -556,114 +556,58 @@ header a:hover
 #id_activites_flex
 {
 	display					: 	flex;
-	background-color		:	white;
 	justify-content			: 	space-between;
+
+	background-color		:	white;
 	padding-top				: 	15px;	
 }
 
-.activites_flex
-{
-	border-width			: 	5px;
-	border-color			:	#F2F2F2;
-	border-radius			: 	20px;
-	border-style			:	solid ;
-	background-color		: white;
-	overflow				: 	hidden;
-	margin					: 	10px;
-	height: 280px;
- }	
-
-.activites_flex img
-{
-	-background-color		:	white;
-	-border					: 	5px solid #F2F2F2;
-	-border-radius			: 	20px;
-	height					: 	250px;
-	width					: 	210px	
-}	
-
-.activites_double 
+.activites_simple
 {
 	display					: flex;
 	flex-flow				: column;
-	width					: 210px;	
 }
 
-.activites_double img
+.activites_double 
 {
-	background-color		:	white;
-	-border					: 	5px solid #F2F2F2;
-	-border-radius			: 	20px;
-	height					: 	100px;
-	width					: 	210px;	
-	object-fit				: 	cover;
+	display					: 	flex;
+	flex-flow				: 	column;
+	justify-content			:	space-between;
 }
 
-.activites_double_pomegues
+.activites_box
 {
 	border-width			: 	5px;
 	border-color			:	#F2F2F2;
 	border-radius			: 	20px;
 	border-style			:	solid ;
+
 	background-color		: white;
+
 	overflow				: 	hidden;
-	margin-bottom			:  	10px;
-	margin-top				: 	10px;
+
+	-margin					: 	10px;
+
 }
 
-.activites_double_frioul
+.activites_box img
 {
-	border-width			: 	5px;
-	border-color			:	#F2F2F2;
-	border-radius			: 	20px;
-	border-style			:	solid ;
-	background-color		: white;
-	overflow				: 	hidden;	
-	object-fit				: 	cover;
-	margin-top: 25px;
-	-margin-bottom: 5px;
+	width					: 	210px;
+	height					: 	280px;
+
+	object-fit				:	cover;
 }
 
-.activites_double_frioul img
+.activites_box_60 img
 {
-	height: 80px;
+	height					: 	110px;
 }
 
-.activites_double_notredame-lagarder
+.activites_box_40 img
 {
-	height: 110px;	
+	height					: 	80px;
 }
 
-.activites_double_lagarde
-{
-	border-width			: 	5px;
-	border-color			:	#F2F2F2;
-	border-radius			: 	20px;
-	border-style			:	solid ;
-	background-color		: white;
-	overflow				: 	hidden;	
-	margin-top				:	5px;	
-	height: 125px;
-	-margin-bottom: 30px;
-		
-}
-
-.activites_double_lagarde img
-{
-	height: 90px;
-}
-
-.activites_double_longchamp
-{
-	border-width			: 	5px;
-	border-color			:	#F2F2F2;
-	border-radius			: 	20px;
-	border-style			:	solid ;
-	background-color		: white;
-	overflow				: 	hidden;			
-	object-fit				: 	cover;
-	margin-top				: 	50px;
-}
 
 #id_activites_flex a
 {
@@ -678,8 +622,9 @@ header a:hover
 	vertical-align			: 	middle;
 	font-weight				: 	bold;
 	font-size				: 	14px;
-	height					: 	25px;
 	padding-left       		:	15px;
+
+	height					: 	25px;
 }
 
 /*###################################################################################
@@ -688,28 +633,25 @@ header a:hover
 
 ###################################################################################*/
 
-
-#id_footer
-{
-	display					: flex;
-	width					: 1050px;
-	padding-left			: 50px;
-	margin-left 			: auto;
-	margin-right 			: auto;
-} 
-
 footer
 {
+	width					: 1050px;
+	margin-left 			: auto;
+	margin-right 			: auto;
+
+	padding-bottom			: 40px;
+
+	display					: 	flex;
+
 	background-color		: #F2F2F2;
-	padding-top 			: 20px;
-	padding-bottom			: 20px;
-	
 }
 
-.Hébergements
+footer div
 {
-	padding-left			: 150px;
-	padding-right			: 150px;
+	width					: 300px;
+
+	margin-left				: 40px;
+	margin-top	 			: 40px;
 }
 
 footer p
@@ -731,8 +673,6 @@ footer a
 {
 	color					: gray;
 	text-decoration     	: none;
-	min-width				: 200px;
-	padding-right			: 20px;
 	padding-top 			: 10px;
 	padding-bottom			: 10px;
 }
@@ -752,24 +692,35 @@ footer a:hover
 @media all and (max-width: 1024px)
 /*@media not screen, screen and (max-width: 1024px)*/
 {
+
+	#id_container
+	{
+		width 				: 	350px;
+		-margin-left 		: 	0;
+		-margin-right 		: 	0;
+	}
+	
 	#bloc_page
     {
-        width: auto;
+        -width: auto;
 	} 
 
 	#id_container header
 	{
-		flex-direction: column;	
-	}
+		flex-direction: column;			
+ 	}
 
-	#id_container header img
+	#id_container header img /*C'est le logo*/
 	{
-		display: none;
+		
+		width: min-content;
 	}
 
 	#id_container header ui
 	{
 		display: block;
+		border-top: none;
+		text-decoration: none;
 	}
 
 	#id_container header div
@@ -778,16 +729,11 @@ footer a:hover
 		text-decoration: none;
 	}
 
-	-section
-    {
-        flex-direction: column;
-    }
 
-		
 	#id_filtres
 	{
 		flex-direction: column;
-		-margin-left: none;
+		-margin-left: 0px;
 		justify-content: left;
 		align-content: left;
 		align-items: left;
@@ -795,31 +741,85 @@ footer a:hover
 		background-color: royalblue;
 	}
 
-	.hebergement_triple
+	#id_hebergement
 	{
-		flex-direction: column;	
-		
+		flex-direction: column-reverse;
+	
 	}
 
-	.hebergement_triple img
+	#bloc_hebergement
 	{
+		width					:	100%;
+		background-color: white;
+		padding-left: 0px;
+	}
+
+	#bloc_hebergement > p
+	{
+		margin-top: 20px;
+	}
+
+	.hebergement_box
+	{
+		border-color:#F2F2F2;
+		width: 320px;
 		margin-bottom: 10px;
 	}
 
-	#id_footer 
+	.hebergement_triple
 	{
-	
 		flex-direction: column;
+		align-items: center;
+		margin-bottom: 0px;	
+	}
+
+	#bloc_populaires
+	{
+		width					: 90%;
+		border-radius: 0px;
 		
+	}	
+
+	.populaires_flex
+	{
+		width: 320px;
+		display: flex;
+		-flex-direction: column;
+		justify-content:space-between;
+	}
+	.populaires_box
+	{
+		width: 300px;
+	}
+
 	
+
+	#id_activites_flex
+	{
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.Hébergements div	{
-		margin-left: 5px;
-		margin-top: 5px ;
-		margin-bottom: 5px;
+	.activites_box
+	{
+		width					: 	320px;
+		margin-bottom			: 10px;
 	}
 
+	.activites_box img
+	{
+		width					: 	320px;
+	}	
+
+
+	footer 
+	{
+		width					: 	380px;
+		-margin-left 			: 	0;
+		-margin-right 			: 	0;
+
+		flex-direction			: 	column;
+	}
 
 }
 
