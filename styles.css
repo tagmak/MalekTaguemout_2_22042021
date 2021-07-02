@@ -730,17 +730,25 @@ footer a:hover
 
  	header
 	{
-		align-items: baseline;
+		-align-items: baseline;
 		justify-content: space-between;
+		margin-bottom: 20px;
+		
 	}
 
-
+	header nav
+	 {
+		margin-top: 20px;
+		border-top:none;
+		
+	}
 
 	header nav > ul
 	{
 	display: flex;
 	flex-wrap: wrap-reverse;
 	-flex-direction: column-reverse;
+	
 	}
 
 	-#id_container header
@@ -750,10 +758,12 @@ footer a:hover
 
  	}
 
-	-#id_container header img /*C'est le logo*/
+	#id_container header img /*C'est le logo*/
 	{
 		
 		width: min-content;
+		-margin-left:  0px;
+
 	}
 
 	-#id_container header ui
@@ -769,7 +779,62 @@ footer a:hover
 		text-decoration: none;
 	}
 
+	 .header_hebergement
+	{
+		-background-color:yellow;
+		margin-top: 30px;
+		-margin-right: 20px;
+		color: black;
+		border-bottom:solid;
+		border-color:#F2F2F2;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
 
+	.header_activites
+	{
+		-background-color: lightcoral;
+		margin-top: 30px;
+		-text-decoration:underline;
+		color: black;
+		border-bottom:solid;
+		border-color:#F2F2F2;
+		font-weight: bold;
+		padding-bottom: 5px;
+		
+
+		
+	}
+
+	.header_inscrire 
+	{
+		-background-color	:lightgreen;
+		margin-left			: 150px;
+		margin-top			: 30px;
+		font-weight			:bold;
+		
+	}
+
+	.header_inscrire a
+	{
+		color:#0065FC;
+	}
+
+	header a 
+	{
+		color: black;
+	}
+
+	header a:hover
+	{
+	color				:	#0065FC;
+	border-bottom-style	: 	inset;
+	border-bottom-style	:	solid;
+	border-top-style	:	none;
+	border-top-style	:	none;
+	
+
+	}
 
  /*********************************************************/
 
