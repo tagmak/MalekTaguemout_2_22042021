@@ -3,8 +3,8 @@
 
 *
 {
-	margin				:	0 0 0 0;
-	padding				:	0 0 0 0;
+	margin					:	0 0 0 0;
+	padding					:	0 0 0 0;
 }
 
 /*###################################################################################*/
@@ -12,11 +12,11 @@
 #id_container
 {
 
-	width 				: 	1000px;
-	margin-left 		: 	auto;
-	margin-right 		: 	auto;
+	width 					: 	1000px;
+	margin-left 			: 	auto;
+	margin-right 			: 	auto;
 
-	background-color	:	white
+	background-color		:	white
 }
 
 /*###################################################################################
@@ -33,50 +33,50 @@
 
 body
 {
-	font-family			: 	Raleway;
-	font-size			:	14px;
-	-font-weight			: 	bold;
+	font-family				: 	Raleway;
+	font-size				:	14px;
+	
 } 
 
 header
 {
-	display				: 	flex;
-	justify-content		:	space-between;
+	display					: 	flex;
+	justify-content			:	space-between;
 	
 }
 
 header nav
 {
 	
-	margin-top			:	55px;
-	border-top-color	: #DEEBFF;
+	margin-top				:	55px;
+	border-top-color		: #DEEBFF;
 }
 
 header nav > ul
 {
-	display				: flex;
-	-flex-direction: column;
+	display					: flex;
+
  }
 
 header a
 {
-	color				:	#DEEBFF;
-	color				:	#0065FC;
-	border-top			:	#0065FC ;
-	text-decoration		: 	none;
-	min-width			:	100px;
-	padding-left		:	15px;
-	padding-right		:	15px;
-	padding-top 		:	30px;
-	padding-bottom		:	5px;
+	color					:	#DEEBFF;
+	color					:	#0065FC;
+	border-top				:	#0065FC ;
+	text-decoration			: 	none;
+	min-width				:	100px;
+	padding-left			:	15px;
+	padding-right			:	15px;
+	padding-top 			:	30px;
+	padding-bottom			:	5px;
 }
 
 
 header a:hover
 {
-	color				:	black;
-	border-top-style	: 	inset;
-	border-top-style	:	solid
+	color					:	black;
+	border-top-style		: 	inset;
+	border-top-style		:	solid
 }
 
 /*###################################################################################
@@ -87,34 +87,31 @@ header a:hover
 
 #id_recherche
 {
-	background-color			: white;
-	-color						: black;	
-	margin-top					: 10px;
-	margin-bottom				: 10px;
+	background-color			: 	white;	
+	margin-top					: 	10px;
+	margin-bottom				: 	10px;
 }
 
 #id_recherche > h2
-{
-	font-family					: Raleway; 
-	font-size					: 18px;
+{	
+	font-family					: 	Raleway; 
+	font-size					: 	18px;
 }
 
 #id_recherche > h3
 {
-	margin-top					: 10px;
-	margin-bottom				: 10px;
-	color						:gray;
-	font-family					: Raleway; 
-	font-size					: 14px;
+	margin-top					: 	10px;
+	margin-bottom				: 	10px;
+	color						:	gray;
+	font-family					: 	Raleway; 
+	font-size					: 	14px;
 }
 
 .recherche_flex
 {
 	display						: 	flex;
 	justify-content				:	left; 
-	-align-content				: 	center;
 	align-items					: 	stretch;
-	
 	height						: 	40px;
 }
 
@@ -124,65 +121,57 @@ header a:hover
 	align-items					: 	center;
 
 
-	background-color			: #F2F2F2;
-	-color						: black;
-	font-size					: small;
-	padding-left				: 15px;
-	padding-right				: 15px;
-
-	border-top-left-radius		: 8px;
-	border-bottom-left-radius	: 8px;
-	border-color				: #F2F2F2;
-	border-style				: solid;
+	background-color			: 	#F2F2F2;
+	-color						: 	black;
+	font-size					: 	small;
+	padding-left				: 	15px;
+	padding-right				: 	5px;
+	border-top-left-radius		: 	8px;
+	border-bottom-left-radius	: 	px;
+	border-color				: 	#F2F2F2;
+	border-style				: 	solid;
 
 }
 
 .recherche_flex input
 {
-	background-color			: white;
-	color						: black;
-	font-size					: small;
-
-	padding-left				: 10px;
-	padding-right				: 10px;
-
-	border-style				: solid;
-	border-color				: #F2F2F2;
-	-border-color				: grey;
-	border-width				: 	2px;
+	background-color			: 	white;
+	color						: 	black;
+	font-size					: 	small;
+	padding-left				: 	10px;
+	padding-right				: 	10px;
+	border-style				: 	solid;
+	border-color				: 	#F2F2F2;
+	border-width				:	2px;
 	border-left-width			:	0px;
 	border-right-width			:	0px;
-	-border-top					: 8px;
-	-border-bottom				: 8px;
-	-border-left					: 8px;
-	-border-right					: 8px;
+	
 
 
 }
 
 .recherche_flex > button
 {
-	background-color			:#0065FC;
-	color						: white;
-	font-size					: small;
-	padding-left				: 10px;
-	padding-right				: 10px;
-	font-family					: Raleway;
-	font-weight					: Bold;
-
-	border-top-right-radius		: 8px;
-	border-bottom-right-radius	: 8px;
-	border-color				:#0065FC;
-	border-style				: solid;
+	background-color			:	#0065FC;
+	color						: 	white;
+	font-size					:	 small;
+	padding-left				: 	10px;
+	padding-right				: 	10px;
+	font-family					:	Raleway;
+	font-weight					:	Bold;
+	border-top-right-radius		: 	8px;
+	border-bottom-right-radius	: 	8px;
+	border-color				:	#0065FC;
+	border-style				: 	solid;
 }
 
 #site-search
 {
-	font-size					: 20px;
-	margin						: 0px; 
-	padding						: 0px;
-	border-top-left-radius		: 8px;
-	border-bottom-left-radius	: 8px;	
+	font-size					: 	20px;
+	margin						: 	0px; 
+	padding						: 	0px;
+	border-top-left-radius		: 	8px;
+	border-bottom-left-radius	: 	8px;	
 }
 
 /*################################################################################
@@ -195,19 +184,16 @@ header a:hover
 {
 	display						: 	flex;
 	justify-content				:	left; 
-	-align-content				: 	center;
 	align-items					: 	center;
-
 	margin-top					: 	20px;
 }
 
 #id_filtres span
 {
-	font-family: Raleway; 
-	font-weight:bold;	
-	color: black;
-
-	margin-right: 20px;
+	font-family					: 	Raleway; 
+	font-weight					:	bold;	
+	color						: 	black;
+	margin-right				: 	20px;
 }
 
 .etiquettes
@@ -215,8 +201,7 @@ header a:hover
 	display						: 	flex;
 	justify-content				:	left; 
 	flex-wrap					: 	wrap;
-
-	color						: #0065FC ;
+	color						: 	#0065FC ;
 }
 
 .etiquettes div
@@ -224,63 +209,51 @@ header a:hover
 	padding: 0px;
 	margin: 0px;
 
-	border-color	:	#F2F2F2;
-	border-style	: 	solid;
-	border-width	: 	4px;
-	border-radius	: 	200px;
-	margin-right	: 	20px;	
+	border-color				:	#F2F2F2;
+	border-style				: 	solid;
+	border-width				: 	4px;
+	border-radius				: 	200px;
+	margin-right				: 	20px;	
 }
 
 #id_filtres  i
 {
-	background-color: #DEEBFF ;
-	border-style: solid;
-	border-color:#DEEBFF  ;
-	border-width: 10px;
-	border-radius: 20px;
+	background-color			: 	#DEEBFF ;
+	border-style				: 	solid;
+	border-color				:	#DEEBFF  ;
+	border-width				: 	10px;
+	border-radius				: 	20px;
 }
 
 #id_filtres  a
 {
-	padding-left: 10px;
-	padding-right: 20px;
-
-	font-family: Raleway; 
-	font-weight:bold;	
-	color: black;
-	text-decoration				: none;
+	padding-left				: 	10px;
+	padding-right				:	 20px;
+	font-family					:	 Raleway; 
+	font-weight					:	bold;	
+	color						: 	black;
+	text-decoration				:	 none;
 }
 
 #id_filtres  a:hover
 {
-	-background-color: lightgreen;
-	padding: 14px 25px;
-	-border: 2px solid green;
-	border-top-style:unset
-	
-  
+	padding						:	14px 25px;
+	border-top-style			:	unset
 }
-
-
-
-
 
 .logements
 {
 	display						: 	flex;
 	justify-content				:	left; 
 	align-content				: 	center;
-	align-items					: 	center;
-	
-	color						: black;
-	margin-top					: 20px;
-	margin-bottom				: 20px;	
-	
+	align-items					: 	center;	
+	color						:	 black;
+	margin-top					: 	20px;
+	margin-bottom				: 	20px;	
 }
 
 .logements > i
 {
-
 	display						: 	flex;
 	justify-content				:	center; 
 	align-content				: 	center;
@@ -289,19 +262,19 @@ header a:hover
 	width						:	20px;
 	height						:	20px;
 
-	color						:#0065FC;
-	border-color				:#F2F2F2 ;
-	border-style				: solid;
-	border-width				: 2px;
-	border-radius				: 15px;
+	color						:	#0065FC;
+	border-color				:	#F2F2F2 ;
+	border-style				: 	solid;
+	border-width				: 	2px;
+	border-radius				: 	15px;
 	
 }
 
 .logements > p
 {
-	margin-left					: 10px;
-	color						:gray;
-	font-weight					: bold;
+	margin-left					:	 10px;
+	color						:	gray;
+	font-weight					:	 bold;
 }
 
 /*###################################################################################
@@ -312,130 +285,117 @@ header a:hover
 
 #id_hebergement
 {
-	display						: flex;
-	justify-content				:space-betwen;
-	background-color			:white;
+	display						:	 flex;
+	justify-content				:	space-betwen;
+	background-color			:	white;
 }
 
 .bleu
 {
-	color						:#0065FC;
+	color						:	#0065FC;
 }
 
 .grey
 {
-	color						: #F2F2F2;
+	color						: 	#F2F2F2;
 }
 
 /*###################################################################################*/
 
 #bloc_hebergement
 {
-	width					:	65%;
-	flex-wrap   			: 	wrap;
-
-	display					: 	flex;
-	flex-direction			: 	column;
-
-	justify-content			: 	space-between;
-
-	background-color		:#F2F2F2;
-	margin-right			: 	20px;
-	border-radius			: 	20px;
-
-	padding-left			:	30px;
-	padding-right			:	30px;
-
-	padding-top				:	40px;
-	padding-bottom			:	40px;
+	width						:	65%;
+	flex-wrap   				: 	wrap;
+	display						: 	flex;
+	flex-direction				: 	column;
+	justify-content				: 	space-between;
+	background-color			:	#F2F2F2;
+	margin-right				: 	20px;
+	border-radius				: 	20px;
+	padding-left				:	30px;
+	padding-right				:	30px;
+	padding-top					:	40px;
+	padding-bottom				:	40px;
 
 }
 
 #bloc_hebergement > h3
 {	
-	margin-bottom			: 	25px;
+	margin-bottom				: 	25px;
 }
 
 .hebergement_triple
 {
-	display					: 	flex;
-	flex-wrap   			: 	wrap;
-    flex-direction			: 	row;
-    justify-content			: 	space-between;
+	display						: 	flex;
+	flex-wrap   				: 	wrap;
+    flex-direction				: 	row;
+    justify-content				: 	space-between;
+	margin-bottom				: 	24px;
 
-	margin-bottom			: 	24px;
 }
 .hebergement_triple > a
 {
-	text-decoration: none;
+	text-decoration				: none;
 }
 
 .hebergement_box
 {
-
-	width					: 	170px;
-	height					:	200px;
-
-	border-width			:	5px;
-	border-color			:	white;
-	border-radius			: 	20px;
-	border-style			:	solid ;
-
-	background-color		: white;
-
-	overflow				: 	hidden;
-
-
-    display					: flex;
-    flex-direction			: column;
-    justify-content			: flex-start;
-
+	width						: 	170px;
+	height						:	200px;
+	border-width				:	5px;
+	border-color				:	white;
+	border-radius				: 	20px;
+	border-style				:	solid ;
+	background-color			: 	white;
+	overflow					: 	hidden;
+    display						: 	flex;
+    flex-direction				: 	column;
+    justify-content				: 	flex-start;
 }
 
 .hebergement_image
 {
-	display					: 	flex;
-	-width					: 	100%;
-	-height					:	60%;
+	display						: 	flex;
+	
 }
 
 .hebergement_image > img
 {
-	height					:	110px;
-	width					: 	100%;
-	object-fit				: 	cover;
+	height						:	110px;
+	width						: 	100%;
+	object-fit					: 	cover;
 }
 
 .hebergement_legende
 {
-	display					: flex;
-	flex-direction			: column;
-	justify-content			: space-evenly;
-	height					: 100%;
+	display						: 	flex;
+	flex-direction				: 	column;
+	justify-content				: 	space-evenly;
+	height						: 	100%;
 }
 
 .hebergement_legende > p:nth-child(1) 
 {
-	color					: black;
-	font-weight				:bold;	
-	font-family				: Raleway; 
+	color						: 	black;
+	font-weight					:	bold;	
+	font-family					: 	Raleway; 
 }
 
 .hebergement_legende > p:nth-child(2) 
 {
-	color					: grey;
+	color						:	grey;
 }
 
 .hebergement_legende > p > span
 {
-	color					: black;
-	font-weight				:bold;	
+	color						: 	black;
+	font-weight					:	bold;	
 }
 
 #bloc_hebergement > p
 {
-	font-weight				:bold;
-	font-family				: Raleway;
+	font-weight					:	bold;
+	font-family					: 	Raleway;
 }
 
 
@@ -444,39 +404,32 @@ header a:hover
 #bloc_populaires
 {
 	width					:	30%;
-
 	display					: 	flex;
 	flex-direction			: 	column;
-	-flex-wrap   			: 	wrap;
 	border-radius			: 	20px;
 	background-color		:	#F2F2F2;
-	
 	padding-left			:	30px;
 	padding-right			:	30px;
-
 	padding-top				:	40px;
 	padding-bottom			:	20px;
 }
 
 .populaires_graphe
 {
-	display					: flex;
-	justify-content			: space-between;
-	margin-bottom			: 30px;
-	margin-bottom			: 30px;
+	display					: 	flex;
+	justify-content			:	space-between;
+	margin-bottom			: 	30px;
+	margin-bottom			: 	30px;
 }
-
 
 #bloc_populaires > h3
 {
-	margin-bottom: 25px;
+	margin-bottom			: 	25px;
 }
 
 .populaires_flex
 {
-
 	height: 85%;
-
 	display					: 	flex;
 	flex-direction			: 	column;
 	justify-content			:	space-between;
@@ -485,74 +438,66 @@ header a:hover
 
 #bloc_populaires > div > a
 {
-	text-decoration: none;
-	-margin-top: 20px;
-	-margin-bottom: 20px;
+	text-decoration			: 	none;
 }
 
 .populaires_box
 {
-	width				: 	280px;
-	height				:	120px;
-	border-width		:	5px;
-	border-color		:	white;
-	border-radius		: 	20px;
-	border-style		:	solid ;
-
-	background-color	: white;
-
-	overflow			: 	hidden;
-	-margin				: 	10px;
-
-    display				: 	flex;
-    justify-content		: 	flex-start;
+	width					: 	280px;
+	height					:	120px;
+	border-width			:	5px;
+	border-color			:	white;
+	border-radius			: 	20px;
+	border-style			:	solid ;
+	background-color		: white;
+	overflow				: 	hidden;
+    display					: 	flex;
+    justify-content			: 	flex-start;
 	
 }
 
 .populaires_image
 {
-	display				: 	flex;
-	
+	display					: 	flex;
 }
 
 .populaires_image > img
 {
-	height				:	100%;
-	width				: 	100px;
-	object-fit			: 	cover;
+	height					:	100%;
+	width					: 	100px;
+	object-fit				: 	cover;
 }
 
 .populaires_legende
 {
-	margin-left			:	20px;
-
-	display				: flex;
-	flex-direction		: column;
-	justify-content		: space-evenly;
-	height				: 100%;
+	margin-left				:	20px;
+	display					: 	flex;
+	flex-direction			:	 column;
+	justify-content			: 	space-evenly;
+	height					: 	100%;
 }
 
 .populaires_legende > p:nth-child(1) 
 {
-	color				: black;
-	font-weight			:bold;	
+	color					: 	black;
+	font-weight				:	bold;	
 }
 
 .populaires_legende > p:nth-child(2) 
 {
-	color: 				grey;
+	color					: 	grey;
 }
 
 .populaires_legende > p:nth-child(3) 
 {
-	color: 				grey;
+	color					: 	grey;
 	padding-top: 20px;
 }
 
 .populaires_legende > p > span
 {
-	color				:black;
-	font-weight			:bold;	
+	color					:	black;
+	font-weight				:	bold;	
 }
 
 /*###################################################################################
@@ -563,9 +508,9 @@ header a:hover
 
 #id_activites
 {
-	background-color	:	white;
-	padding-bottom		: 	20px;
-	padding-top			: 	20px;
+	background-color		:	white;
+	padding-bottom			: 	20px;
+	padding-top				: 	20px;
 }
 
 /*#################################################################################*/
@@ -574,15 +519,14 @@ header a:hover
 {
 	display					: 	flex;
 	justify-content			: 	space-between;
-
 	background-color		:	white;
 	padding-top				: 	15px;	
 }
 
 .activites_simple
 {
-	display					: flex;
-	flex-flow				: column;
+	display					: 	flex;
+	flex-flow				:	 column;
 }
 
 .activites_double 
@@ -598,12 +542,8 @@ header a:hover
 	border-color			:	#F2F2F2;
 	border-radius			: 	20px;
 	border-style			:	solid ;
-
-	background-color		: white;
-
+	background-color		: 	white;
 	overflow				: 	hidden;
-
-	-margin					: 	10px;
 
 }
 
@@ -611,7 +551,6 @@ header a:hover
 {
 	width					: 	210px;
 	height					: 	280px;
-
 	object-fit				:	cover;
 }
 
@@ -625,10 +564,9 @@ header a:hover
 	height					: 	80px;
 }
 
-
 #id_activites_flex a
 {
-	color					: black;
+	color					: 	black;
 	font-family				: 	Raleway;
 	text-decoration			: 	none;
 }
@@ -640,7 +578,6 @@ header a:hover
 	font-weight				: 	bold;
 	font-size				: 	14px;
 	padding-left       		:	15px;
-
 	height					: 	25px;
 }
 
@@ -652,51 +589,47 @@ header a:hover
 
 footer
 {
-	width					: 1050px;
-	margin-left 			: auto;
-	margin-right 			: auto;
-
-	padding-bottom			: 40px;
-
+	width					: 	1050px;
+	margin-left 			: 	auto;
+	margin-right 			: 	auto;
+	padding-bottom			: 	40px;
 	display					: 	flex;
-
-	background-color		: #F2F2F2;
+	background-color		: 	#F2F2F2;
 }
 
 footer div
 {
-	width					: 300px;
-
-	margin-left				: 40px;
-	margin-top	 			: 40px;
+	width					: 	300px;
+	margin-left				: 	40px;
+	margin-top	 			:	40px;
 }
 
 footer p
 {
-	font-weight				: bold;
+	font-weight				:	 bold;
 }
 
 footer ul
 {
-	list-style-type			: none;
+	list-style-type			: 	none;
 }
 
 footer li
 {
-	margin-top 				: 10px;	
+	margin-top 				: 	10px;	
 }
 
 footer a
 {
-	color					: gray;
-	text-decoration     	: none;
-	padding-top 			: 10px;
-	padding-bottom			: 10px;
+	color					: 	gray;
+	text-decoration     	: 	none;
+	padding-top 			: 	10px;
+	padding-bottom			: 	10px;
 }
 
 footer a:hover
 {
-	color				:	#0065FC;
+	color					:	#0065FC;
 }
 
 /*###################################################################################*
@@ -707,167 +640,120 @@ footer a:hover
 
 
 @media all and (max-width: 1024px)
-/*@media not screen, screen and (max-width: 1024px)*/
+
 {
 
 	#id_container
 	{
-		width 				: 	80%;
-		
-		-margin-left 		: 	0;
-		-margin-right 		: 	0;
+		width 					: 	80%;		
 	}
-	
-	#bloc_page
-    {
-        -width: auto;
-	} 
-
-
- /**********************************************************/
-
-
 
  	header
 	{
-		-align-items: baseline;
-		justify-content: space-between;
-		margin-bottom: 20px;
-		
+		justify-content			: 	space-between;
+		margin-bottom			:	20px;
 	}
 
 	header nav
 	 {
-		margin-top: 20px;
-		border-top:none;
+		margin-top				: 	20px;
+		border-top				:	none;
 		
 	}
 
 	header nav > ul
 	{
-	display: flex;
-	flex-wrap: wrap-reverse;
-	-flex-direction: column-reverse;
-	
+		display					: 	flex;
+		flex-wrap				: 	wrap-reverse;
 	}
 
-	-#id_container header
+	#id_container header img 
 	{
-		flex-direction:column;		
-		flex-wrap: wrap;
-
- 	}
-
-	#id_container header img /*C'est le logo*/
-	{
-		
-		width: min-content;
-		-margin-left:  0px;
-
-	}
-
-	-#id_container header ui
-	{
-		display: block;
-		border-top: none;
-		text-decoration: none;
-	}
-
-	-#id_container header div
-	{
-		flex-direction: column;	
-		text-decoration: none;
+		width					: 	min-content;
 	}
 
 	 .header_hebergement
 	{
-		-background-color:yellow;
-		margin-top: 30px;
-		-margin-right: 20px;
-		color: black;
-		border-bottom:solid;
-		border-color:#F2F2F2;
-		font-weight: bold;
-		padding-bottom: 5px;
+		
+		margin-top				: 	30px;	
+		color					: 	black;
+		border-bottom			:	solid;
+		border-color			:	#F2F2F2;
+		font-weight				: 	bold;
+		padding-bottom			: 	5px;
 	}
 
 	.header_activites
 	{
-		-background-color: lightcoral;
-		margin-top: 30px;
-		-text-decoration:underline;
-		color: black;
-		border-bottom:solid;
-		border-color:#F2F2F2;
-		font-weight: bold;
-		padding-bottom: 5px;
+		
+		margin-top				: 	30px;
+		color					:	 black;
+		border-bottom			:	solid;
+		border-color			:	#F2F2F2;
+		font-weight				:	 bold;
+		padding-bottom			: 	5px;
 		
 	}
 
 	.header_inscrire 
 	{
-		-background-color	:lightgreen;
-		margin-left			: 125px;
-		margin-top			: 30px;
-		font-weight			:bold;
-		
+		margin-left				: 	125px;
+		margin-top				: 	30px;
+		font-weight				:	bold;	
 	}
 
 	.header_inscrire a
 	{
-		color:#0065FC;
+		color					:	#0065FC;
 	}
 
 	header a 
 	{
-		color: black;
+		color					: 	black;
 	}
 
 	header a:hover
 	{
-	color				:	#0065FC;
-	border-bottom-style	: 	inset;
-	border-bottom-style	:	solid;
-	border-top-style	:	none;
-	border-top-style	:	none;
-	
-
+	color						:	#0065FC;
+	border-bottom-style			: 	inset;
+	border-bottom-style			:	solid;
+	border-top-style			:	none;
+	border-top-style			:	none;
 	}
 
  /*********************************************************/
 
-
  	.recherche_flex > button 
 	 {
-		 width: 40%;
+		 width					: 	40%;
 	 }
 
 	 .recherche_flex input 
 	 {
-		width: 50%;
+		width					: 	50%;
 	 }
 	
 
  	#id_recherche > h3
 	{
-		margin-bottom: 30px;
+		margin-bottom			: 	30px;
 	}
 
 	#id_filtres span
 	 {
-		 margin-bottom: 20px;
+		 margin-bottom			: 	20px;
 	 }
 
 	#id_filtres 
 	{
-		flex-direction: column;
-		align-items:flex-start;
+		flex-direction			: 	column;
+		align-items				:	flex-start;
 	}
 
 	.logements
 	{
-		margin-top			: 30px;
-		margin-bottom		: 30px;
+		margin-top				: 	30px;
+		margin-bottom			: 	30px;
 	}
 
  /***********************************************************/
@@ -875,109 +761,103 @@ footer a:hover
 	#id_hebergement
 	{
 		flex-direction: column-reverse;
-	
 	}
 
 	#bloc_hebergement
 	{
-		width				:	100%;
-		background-color	: white;
-		padding-left		: 0px;
+		width					:	100%;
+		background-color		: 	white;
+		padding-left			:	0px;
 	}
 
 	#bloc_hebergement > p
 	{
-		margin-top			: 20px;
+		margin-top				: 	20px;
 	}
 
 	.hebergement_box
 	{
-		border-color		:#F2F2F2;
-		width				: 100%;
-		margin-bottom		: 10px;
+		border-color			:	#F2F2F2;
+		width					: 	100%;
+		margin-bottom			: 	10px;
 	}
 
 	.hebergement_triple
 	{
-		flex-direction		: column;
-		align-items			: center;
-		margin-bottom		: 0px;	
+		flex-direction			:	column;
+		align-items				:	center;
+		margin-bottom			: 	0px;	
 	}
 
 	.hebergement_triple > a
 	{
-		width:100% ;
+		width					:	100% ;
 	}
 	.recherche_flex
 	{
-		margin-top			: 10px;
-		margin-bottom		: 30px;
+		margin-top				: 	10px;
+		margin-bottom			: 	30px;
 	}
 
  /***************************************************************/
 
 	#bloc_populaires
 	{
-		width				: 90%;
-		border-radius		: 0px;
-		
+		width					: 	90%;
+		border-radius			:	0px;	
 	}	
 
 	.populaires_flex
 	{
-		width				: 100%;
-		display				: flex;
-		-flex-direction		: column;
-		justify-content		:space-between;
+		width					: 	100%;
+		display					: 	flex;
+		justify-content			:	space-between;
 	}
 
 	.populaires_flex a 
 	{
-		margin-bottom		: 10px;
+		margin-bottom			: 	10px;
 	}
-
-
+										
 	.populaires_box
 	{
-		width				: 100%;
+		width					: 	100%;
 	}
 
  /******************************************************************/
 
  	#id_activites
 	 {
-		width: 100%;
+		width					: 100%;
 	 }	
- 
  
  	#id_activites_flex
 	{
-		flex-direction		: column;
-		align-items			: center;
+		flex-direction			: column;
+		align-items				: center;
 	}
 
 	.activites_box
 	{
-		width				: 100%;
-		margin-bottom		: 10px;
+		width					: 100%;
+		margin-bottom			: 10px;
 	}
 
 	.activites_box img
 	{
-		width				: 100%;
-		height				: 150px;
+		width					: 100%;
+		height					: 150px;	
+	}	
 		
-	}		
 	.activites_simple 
 	{
-		width				: 100%;
-		
-		margin-bottom		: none;
+		width					: 100%;	
+		margin-bottom			: none;
 	}
 
 	.activites_double
 	{
-		width: 100%;
+		width					: 100%;
 	}
  /*****************************************************************/	
 	
