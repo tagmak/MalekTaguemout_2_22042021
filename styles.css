@@ -1,16 +1,14 @@
 
 /*###################################################################################*/
 
-*
-{
+*{
 	margin					:	0 0 0 0;
 	padding					:	0 0 0 0;
 }
 
 /*###################################################################################*/
 
-#id_container
-{
+#id_container{
 	width 					: 	1000px;
 	margin-left 			: 	auto;
 	margin-right 			: 	auto;	
@@ -22,37 +20,31 @@
 
 ###################################################################################*/
 
-@font-face
-{
+@font-face{
 	font-family: "Raleway";
 	src: url("Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
-body
-{
+body{
 	font-family				: 	Raleway;
 	font-size				:	14px;	
 } 
 
-header
-{
+header{
 	display					: 	flex;
 	justify-content			:	space-between;
 }
 
-header nav
-{
+header nav{
 	margin-top				:	55px;
 	border-top-color		: #DEEBFF;
 }
 
-header nav > ul
-{
+header nav > ul{
 	display					: flex;
 }
 
-header a
-{
+header a{
 	color					:	#DEEBFF;
 	color					:	#0065FC;
 	border-top				:	#0065FC ;
@@ -64,8 +56,7 @@ header a
 	padding-bottom			:	5px;
 }
 
-header a:hover
-{
+header a:hover{
 	color					:	black;
 	border-top-style		: 	inset;
 	border-top-style		:	solid
